@@ -1,0 +1,5 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ùş—à8û”ãé™2
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(×ÑèŠ8çıãé™2
+P
+java:S1874:"3Remove this use of "newInstance"; it is deprecated.(¨òÏ¶8öıãé™2

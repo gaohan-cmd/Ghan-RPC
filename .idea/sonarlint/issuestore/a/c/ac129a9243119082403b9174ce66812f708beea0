@@ -1,0 +1,12 @@
+
+g	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(‹…£‹øÿÿÿÿ8Êˆ˜ê™2
+b	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(ì¼Ó§8Êˆ˜ê™2
+a	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Ê®õr8Ëˆ˜ê™2
+l
+java:S2095p"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(²½®Ù8ı˜ê™2
+i
+java:S2095q"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ŠËÌî8Ü¡Ñê™2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(äü¶è8…˜ê™2
+U
+java:S1874V"3Remove this use of "newInstance"; it is deprecated.(İğô˜øÿÿÿÿ8˜ê™2

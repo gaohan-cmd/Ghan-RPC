@@ -1,0 +1,17 @@
+
+[	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(­Ô„¢
+`	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(¹Ô¸¨ùÿÿÿÿ
+a	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(‰¡æşÿÿÿÿ
+D
+java:S1604†"(Make this anonymous inner class a lambda(œ¥Ô½ùÿÿÿÿ
+V
+java:S1075$"ARefactor your code to get this URI from a customizable parameter.(ö“ìk
+t
+java:S2142`"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(õÉ¹ãıÿÿÿÿ
+t
+java:S2142n"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+|
+java:S2142˜"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ÒŞ£‰œ2
+\
+java:S1128"FRemove this unused import 'org.checkerframework.checker.units.qual.C'.(ÏıÁÊ

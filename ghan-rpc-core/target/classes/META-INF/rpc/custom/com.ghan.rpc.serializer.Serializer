@@ -1,0 +1,4 @@
+a=com.ghan.rpc.serializer.JdkSerializer
+b=com.ghan.rpc.serializer.HessianSerializer
+c=com.ghan.rpc.serializer.JsonSerializer
+d=com.ghan.rpc.serializer.KryoSerializer
