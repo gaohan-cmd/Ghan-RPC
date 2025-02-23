@@ -1,6 +1,22 @@
 
-`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(ÒÀ•ˆüÿÿÿÿ
-V	java:S125%"<This block of commented-out lines of code should be removed.(Ýõúûÿÿÿÿ
-Q	java:S125)"<This block of commented-out lines of code should be removed.(Úâ¥Â
-H
-java:S1135D"2Complete the task associated to this TODO comment.(ÚŸÑ§
+`	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ÒÀ•ˆüÿÿÿÿ
+[	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(ªžø°
+`	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(ƒŸ«øÿÿÿÿ
+X
+java:S1854<"=Remove this useless assignment to local variable "bodyBytes".(¨ù«„úÿÿÿÿ
+I
+java:S1481<".Remove this unused "bodyBytes" local variable.(¨ù«„úÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ÆÛøúÿÿÿÿ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(Úô¥žøÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'cn.hutool.http.HttpRequest'.(º³øä
+N
+java:S1128"8Remove this unused import 'cn.hutool.http.HttpResponse'.(åû„þ
+L
+java:S1128"1Remove this unused import 'io.vertx.core.Future'.(á±ÿËþÿÿÿÿ
+N
+java:S1128"8Remove this unused import 'io.vertx.core.net.NetSocket'.(Â»è
+W
+java:S1128"<Remove this unused import 'io.vertx.core.net.SocketAddress'.(¦ßìÆúÿÿÿÿ
+V
+java:S1128"@Remove this unused import 'java.util.concurrent.CountDownLatch'.(¤ƒô§

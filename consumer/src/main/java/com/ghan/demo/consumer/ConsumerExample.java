@@ -17,20 +17,28 @@ public class ConsumerExample {
 //        System.out.println(rpc);
 //    }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         // 获取代理
         UserService userService = ServiceProxyFactory.getProxy(UserService.class);
         User user = new User();
-        user.setName("gaohan");
+        user.setName("zjr");
         // 调用
-        User newUser = userService.getUser(user);
-        if (newUser != null) {
-            System.out.println(newUser.getName());
-        } else {
-            System.out.println("user == null");
+        try {
+            User newUser = userService.getUser(user);
+            System.out.println("Debug: newUser = " + newUser); // 添加此行
+            if (newUser != null) {
+                System.out.println(newUser.getName());
+            } else {
+                System.out.println("user == null");
+            }
+            // 第二次调用
+            userService.getUser(user);
+            userService.getUser(user);
+            long number = userService.getNumber();
+            System.out.println(number);
+        } catch (Exception e) {
+            e.printStackTrace(); // 强制打印异常堆栈
         }
-//        long number = userService.getNumber();
-//        System.out.println(number);
     }
 }

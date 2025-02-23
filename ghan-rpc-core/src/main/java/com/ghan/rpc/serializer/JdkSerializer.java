@@ -1,6 +1,7 @@
 package com.ghan.rpc.serializer;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 /**
  * JdkSerializer *
@@ -45,6 +46,7 @@ public class JdkSerializer implements Serializer{
     // <T> 表示这个方法是泛型的，T 是一个占位符，表示方法返回类型的实际类型。方法的返回值类型为 T
     public <T> T deserialize(byte[] bytes, Class<T> type) throws IOException {
         ByteArrayInputStream inputStream = new ByteArrayInputStream(bytes);
+        //System.out.println(new String(bytes, StandardCharsets.UTF_8));
         ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
         try {
             return (T) objectInputStream.readObject();

@@ -1,6 +1,5 @@
 package com.ghan.demo.provider;
 
-import cn.hutool.core.net.NetUtil;
 import com.ghan.demo.common.service.UserService;
 import com.ghan.rpc.RpcApplication;
 import com.ghan.rpc.config.RegistryConfig;
@@ -9,14 +8,16 @@ import com.ghan.rpc.model.ServiceMetaInfo;
 import com.ghan.rpc.registry.LocalRegistry;
 import com.ghan.rpc.registry.Registry;
 import com.ghan.rpc.registry.RegistryFactory;
-import com.ghan.rpc.server.tcp.VertxTcpServer;
+import com.ghan.rpc.server.HttpServer;
+import com.ghan.rpc.server.VertxHttpServer;
 
 
 /**
  * 服务提供者示例
+ * 有注册中心-rpc动态配置
  *
  */
-public class ProviderExample {
+public class ProviderExample_http服务提供 {
 
     public static void main(String[] args) {
         // RPC 框架初始化
@@ -40,8 +41,12 @@ public class ProviderExample {
             throw new RuntimeException(e);
         }
 
-        // 启动 TCP 服务
-        VertxTcpServer vertxTcpServer = new VertxTcpServer();
-        vertxTcpServer.doStart(8080);
+//        // 启动 web 服务
+//        HttpServer httpServer = new VertxHttpServer();
+//        httpServer.doStart(RpcApplication.getRpcConfig().getServerPort());
+
+         // 启动 web 服务
+        HttpServer httpServer = new VertxHttpServer();
+        httpServer.doStart(8080);
     }
 }
